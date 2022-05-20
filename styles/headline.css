@@ -37,7 +37,7 @@
   margin-top: 15px;
 }
 
-@media screen and(min-width: 399px) {
+@media screen and (min-width: 399px) {
   .headline__action-btn {
     width: 100%;
   }

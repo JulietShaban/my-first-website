@@ -13,6 +13,7 @@ flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: 1;
 }
 .customers__item:last-child{
     border-right: none;
@@ -21,7 +22,7 @@ flex-direction: column;
     filter: brightness(0);
     max-width: 80%;
 }
-@media screen and(min-width:400px) {
+@media screen and (min-width:400px) {
   .customers {
     width: 1140px;
     margin: auto;

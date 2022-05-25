@@ -313,7 +313,7 @@
   flex-direction: column;
 }
 @media screen and (min-width: 1400px) {
-  .footer-links .footer-links {
+  .footer-links {
     width: 1140px;
     height: 50px;
     align-items: center;
@@ -347,7 +347,6 @@
 @media screen and (min-width: 1400px) {
   .social-links {
     margin-left: auto;
-    margin-bottom: 0;
   }
 }
 .social-links__item {

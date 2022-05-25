@@ -766,6 +766,115 @@
   color: #3142C6;
 }
 
+.audience {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px;
+  background-color: rgba(0, 161, 198, 0.0705882353);
+}
+.audience__info {
+  text-align: center;
+}
+@media screen and (min-width: 1400px) {
+  .audience__info {
+    width: 555px;
+  }
+}
+.audience__info-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+}
+@media screen and (min-width: 1400px) {
+  .audience__info-title {
+    margin-bottom: 24px;
+  }
+}
+.audience__info-subtitle {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.357143px;
+}
+@media screen and (min-width: 1400px) {
+  .audience__info-subtitle {
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    margin: 0;
+  }
+}
+.audience__info-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+}
+@media screen and (min-width: 1400px) {
+  .audience__info-text {
+    margin-top: 30px;
+    margin-bottom: 34px;
+  }
+}
+.audience__buttons {
+  width: 100%;
+}
+@media screen and (min-width: 1400px) {
+  .audience__buttons {
+    display: flex;
+    justify-content: center;
+  }
+}
+.audience__action-btn {
+  width: 100%;
+}
+@media screen and (min-width: 1400px) {
+  .audience__action-btn {
+    width: 160px;
+  }
+}
+.audience__cards {
+  width: 290px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+.audience__cards:hover {
+  background-color: #3142C6;
+  color: #ffffff;
+  cursor: pointer;
+}
+@media screen and (min-width: 1400px) {
+  .audience__cards {
+    margin: 0;
+    margin-left: 30px;
+  }
+}
+.audience__cards_image {
+  margin: 0;
+}
+.audience__cards_caption {
+  margin-top: 22px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+}
+@media screen and (min-width: 1400px) {
+  .audience__cards-list {
+    display: flex;
+    margin-bottom: 110px;
+    margin-top: 111px;
+  }
+}
+
 html {
   font-size: 16px;
   font-family: "Work Sans", sans-serif;
